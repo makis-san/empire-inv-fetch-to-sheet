@@ -6,7 +6,8 @@
   "author": "makis-san",
   "license": "MIT",
   "scripts": {
-    "start": "ts-node ./index.ts"
+    "start": "ts-node ./index.ts",
+    "dev": "ts-node ./index.ts -dev -noGoogle"
   },
   "dependencies": {
     "axios": "^0.21.1",

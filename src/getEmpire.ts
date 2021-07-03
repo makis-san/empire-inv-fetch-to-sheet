@@ -6,7 +6,7 @@ declare interface IData {
   market_name: string;
   market_value: number;
 }
-const start = async () => {
+const start = async (args?: string[]) => {
   const options: any = {
     method: "GET",
     url: "https://csgoempire.com/api/v2/inventory/user",
@@ -28,9 +28,10 @@ const start = async () => {
               .toLocaleString("pt-BR", { style: "currency", currency: "BRL" })
               .replace("R$ ", "$"),
           };
+          if (args.includes("-dev")) console.log(data);
           return data;
         });
-      handleGoogleSheet(data);
+      if (!args.includes("-noGoogle")) handleGoogleSheet(data);
     })
     .catch(function (error) {
       console.error(error);

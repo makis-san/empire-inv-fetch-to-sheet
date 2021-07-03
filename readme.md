@@ -27,6 +27,13 @@
 yarn && yarn start
 ```
 
+### Commandline Args
+
+| key       | value                                                                            |
+| --------- | -------------------------------------------------------------------------------- |
+| -dev      | enable console.log                                                               |
+| -noGoogle | the application will only fetch data from csempire without updating google sheet |
+
 ### Env
 
 | key                            | value                                         |
