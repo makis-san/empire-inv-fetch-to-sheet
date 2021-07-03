@@ -1,8 +1,8 @@
-### Fetch CSGO Empire Deposit Inventory to Google Sheet
+# Fetch CSGO Empire Deposit Inventory to Google Sheet
 
 ## How to use
 
-# Env
+### Env
 
 ```
 GOOGLE_APPLICATION_CREDENTIALS= path to google api client credentials
