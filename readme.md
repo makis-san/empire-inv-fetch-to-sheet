@@ -17,7 +17,9 @@
 1. **Get Empire Cookie**: Navigate to empire deposit page with google devtools, open Network tab and search for request from `https://csgoempire.com/api/v2/inventory/user?app=730`.
    ![](https://i.imgur.com/81ZnCp7.png)
    ![](https://i.imgur.com/m1AvhCs.png)
+
    Head down on response headers and copy cookie header. This is your **EMPIRE_AUTH_COOKIE** enviroment variable.
+
 2. **Configure google api and google sheet.**
 3. Have fun
 
