@@ -31,7 +31,6 @@ const start = async () => {
           return data;
         });
       handleGoogleSheet(data);
-      //   console.log(data)
     })
     .catch(function (error) {
       console.error(error);

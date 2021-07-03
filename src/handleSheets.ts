@@ -39,8 +39,6 @@ const handleGoogleSheet = async (empireRange: EmpireRange[]) => {
   };
   const response = await sheets.spreadsheets.values.batchUpdate(updateOptions);
 
-  console.log(values);
-  console.log(empireRange);
   return;
 };
 
