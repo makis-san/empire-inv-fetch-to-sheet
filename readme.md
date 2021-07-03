@@ -2,6 +2,8 @@
 
 [![GitHub license](https://img.shields.io/github/license/makis-san/csgoempire-inventory-fetch-to-sheet)](https://github.com/makis-san/csgoempire-inventory-fetch-to-sheet/blob/main/LICENSE)
 
+>I literally did this in 30 minutes and i'm actually planning to add more features. Please be patient 💙
+
 ## Dependencies
 
 | package      | dev | version  |
